@@ -63,7 +63,8 @@ module.exports = {
             options: {
               sassOptions: {
                 includePaths: [
-                  path.join(__dirname, '.cache/calypso/client')
+                  path.join(__dirname, '.cache/calypso/client'),
+                  path.join(__dirname, '.cache/calypso/client/extensions')
                 ],
                 outputStyle: 'compressed'
               }
